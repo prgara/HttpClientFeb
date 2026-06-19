@@ -13,5 +13,7 @@ public class RestConfig {
     @Bean
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
+
+
     }
 }
